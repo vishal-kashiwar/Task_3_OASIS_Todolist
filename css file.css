@@ -1,0 +1,85 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+body {
+  color: #fbf6f6;
+  font-family: 'Lato', sans-serif;
+  padding: 10px 3.65em 3em;
+  line-height: 1.5;
+  background-color:rgb(47, 48, 42);
+}
+h1 {
+  margin-bottom: 0;
+}
+h1 + p {
+  font-size: 1.08em;
+  color: #eeeef5;
+  margin-top: .3em;
+  margin-bottom: 2.25em;
+  padding-bottom: 1.3em;
+  border-bottom: 3px dotted;
+}
+ul {
+  padding-left: 0%;
+  padding-right: 8%;
+  list-style: none;
+}
+li {
+  padding: .55em .95em;
+  margin-bottom: .70em;
+  background: #f91313;
+  display: flex;
+  align-items: center;
+}
+input,
+button {
+  font-size: .80em;
+  padding: .65em 1em;
+  border-radius: .3em;
+  outline: 0;
+}
+input {
+  border: 1px solid #dcdcdc;
+  margin-right: 10em;
+}
+div {
+  margin-top: 2.8em;
+  padding: 1.4em 0.5em .5em;
+  border-top: 2px double #ffffff;
+  border-bottom:2px double #ffffff ;
+}
+p.description,
+p:nth-of-type(2) {
+  font-weight: bold;
+}
+/* Buttons */
+button {
+  color: white;
+  background: #14acb4;
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, .1);
+  cursor: pointer;
+}
+button + button {
+  margin-left: .85em;
+}
+p + button {
+  background: #0609ab;
+}
+.list button + button {
+  background: #08b2c8;
+}
+.list li button + button {
+  background: #046239;
+}
+li button:first-child {
+  margin-left: auto;
+  background: #0a9e25;
+}
+.list li button:last-child {
+  background: #9c350a;
+}
+li button {
+  font-size: .75em;
+  padding: .59em .65em;
+}
+ 
